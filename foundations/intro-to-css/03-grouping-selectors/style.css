@@ -1,0 +1,13 @@
+.white {
+    background-color: black;
+    color: white;
+}
+
+.black {
+    background-color: yellow;
+}
+
+.one {
+    font-size: 28px;
+    font: Helvetica, "Times New Roma", sans-serif;
+}
