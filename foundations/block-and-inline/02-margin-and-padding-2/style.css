@@ -6,37 +6,49 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  padding: 8px;
-  font-size: 16px;
-}
+  margin: 16px auto;
+} /* add in margin, delete font-size & padding */
 
 .title {
   background: #e3f4ff;
-  padding: 8px;
-}
+} /* delete padding */
 
 .content {
   background: #e3f4ff;
-  padding: 16px 8px;
-}
+} /* delete padding */
 
 .button-container {
   background: #e3f4ff;
-  padding: 8px;
-  text-align: center;
-}
+} /* delete padding & text align */
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding: 8px 24px;
-  display: block;
-  margin: auto;
-}
+} /* delete padding, display, margin */
 
+/* add in */
 .card,
-.title,
-.content,
+.title {
+  padding: 8px;
+} /* delete selector content & button-container & margin, add padding 8px */
+
+.title {
+  margin-bottom: 8px;
+  font-size: 16px;
+} /* add title, margin & font-size*/
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+} /* add content, margin-bottom & padding */
+
 .button-container {
-  margin: 8px auto;
+  text-align: center;
+  padding: 8px;
+} /* add button-container, text-aling & padding */
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
