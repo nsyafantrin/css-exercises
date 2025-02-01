@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-size: 40px;
-    box-sizing: border-box;
 }
 
 .box-one {
@@ -12,6 +11,7 @@
     margin: 60px;
     width: 100px;
     height: 100px;
+    box-sizing: border-box;
 }
 
 .box-two {
@@ -21,4 +21,5 @@
     width: 100px;
     height: 100px;
     margin: 60px;
+    box-sizing: content-box;
 }
