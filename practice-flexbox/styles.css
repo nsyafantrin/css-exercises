@@ -31,13 +31,18 @@
     justify-content: space-around;
 }
 
-/*Grouping Flex items*/
+.signup {
+    margin-left: auto;
+}
+
+/*Grouping Flex items
 
 .links {
-    /*border: 1px solid #fff;*/
+    /*border: 1px solid #fff;
     display: flex;
     justify-content: flex-end;
 }
+*/
 
 .login {
     margin-left: 20px;
