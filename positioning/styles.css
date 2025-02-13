@@ -32,3 +32,12 @@ body {
     left: 30px;
 }
 
+.item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    position: relative;
+}
