@@ -60,6 +60,12 @@
     body {
         background-color: #F5CF8E; /* Yellow */
     }
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 50%;
+    }
 }
 
 /* Desktop styles */
