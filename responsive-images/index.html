@@ -9,15 +9,17 @@
 <body>
     <div class="page">
         <div class="section menu"></div>
-        <div class="section header">
-            <div class="photo">
-                <img src="images/photo-small.jpg" 
-                    alt="header"
-                    srcset="images/photo-big.jpg 2000w,
-                    images/photo-small.jpg 1000w"
-                    sizes="(min-width: 960px) 960px, 100vw">
+        <div class='section header'>
+            <div class='photo'>
+              <picture>
+                <source media='(min-width: 601px)'
+                        srcset='images/photo-big.jpg'/>
+                <source media='(max-width: 600px)'
+                        srcset='images/photo-tall.jpg'/>
+                <img src='images/photo-small.jpg'/>
+              </picture>
             </div>
-        </div>
+          </div>
         <div class="section content">
             <div class="illustration">
                 <img 
