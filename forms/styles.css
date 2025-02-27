@@ -125,6 +125,10 @@ body {
         margin-left: 120px;
         width: auto;
     }
+
+    .form-row button {
+        margin-left: 120px;
+    }
 }
 
 
@@ -186,3 +190,21 @@ body {
     margin-bottom: 0;
 }
 
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #76AEED;
+}
+
+.form-row button:active {
+     background-color: #407FC7;
+}
