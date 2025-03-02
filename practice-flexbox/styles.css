@@ -106,7 +106,7 @@
     border: 1px solid #fff;
     background-color: #D6E9FE;
     height: 200px;
-    flex: 1;
+    flex: 1 1 0;
 }
 
 .footer-one,
