@@ -24,3 +24,25 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Practice */
+
+body {
+  text-align: center;
+}
+
+.title {
+ margin-bottom: 32px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  border: 1px solid black;
+}
+
+.cont {
+  max-width: 200px;
+  border: 1px solid black;
+}
