@@ -24,3 +24,20 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Practice */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-links,
+.right-links{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+
