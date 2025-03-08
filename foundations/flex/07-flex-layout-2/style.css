@@ -40,9 +40,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding-left: 16px;
-  flex: none;
-  width: 1000px
+  padding: 0 16px;
  }
 
  .container {
@@ -51,17 +49,18 @@ body {
  }
 
  .sidebar {
-  display: flex;
-  flex: none;
+  flex-shrink: 0;
+  padding: 16px;
  }
 
 .sidebar ul  {
   list-style-type: none;
-  /* text-decoration: none; */
- }
+  margin: 0;
+  padding: 0;
+}
  
- .sidebar li {
-  margin: 10px;
+ .sidebar ul li {
+  margin-bottom: 16px;
  }
  .sidebar a {
   text-decoration: none;
@@ -71,22 +70,18 @@ body {
 
  .cards {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-self: center;
+  gap: 32px;
   flex-wrap: wrap;
-  padding: 40px;
- }
-
- .card {
-  height: 300px;
-  width: 300px;
-  padding: 10px;
-  margin: 10px;
+  padding: 48px;
  }
 
  .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+ }
+
+ .card {
+  width: 300px;
+  padding: 16px;
  }
