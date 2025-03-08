@@ -26,6 +26,10 @@ input {
 }
 
 /* Practice */
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 .header {
   display: flex;
@@ -33,11 +37,39 @@ input {
   padding: 20px;
 }
 
-.left-links,
-.right-links{
-  list-style-type: none;
-  display: flex;
-  gap: 10px;
+.button {
+  padding: 8px 16px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(134, 131, 131);
+}
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
